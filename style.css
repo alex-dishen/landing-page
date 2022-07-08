@@ -9,7 +9,6 @@ body {
     font-size: 18px;
     display: flex;
     justify-content: center;
-    height: 420px;
 }
 
 .container {
@@ -26,6 +25,7 @@ body {
     font-size: 24px;
     font-weight: bolder;
     color: #f9faf8;
+    flex-shrink: 0;
 }
 
 ul {
@@ -47,11 +47,11 @@ a {
 .greetings {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin: 80px 0px;
 }
 
 .intro {
-    margin-right: 80px;
     width: 380px;
 }
 
@@ -72,36 +72,18 @@ button {
     font-weight: bold;
     border-radius: 7px;
     padding: 5px 22px;
+    flex-shrink: 0;
 }
 
 .intro button {
     margin-top: 12px;
-}
-
-.action button {
-    background-color: #3882f6;
-    color: #f9faf8;
-    border-style: none;
-    border: 2px solid white;
-    font-weight: bold;
-    border-radius: 7px;
-    padding: 5px 22px;
+    margin-bottom: 30px;
 }
 
 .holder {
     background-color: grey;
     width: 470px;
     height: 210px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer {
-    height: 75px;
-    background-color: #1f2937;
-    color: #e5e7eb;
-    font-size: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -147,6 +129,7 @@ button {
 .quote-container {
     width: 830px;
     margin: 90px 0px;
+    padding: 0px 14px;
 }
 
 .quote-container .text {
@@ -171,11 +154,12 @@ button {
     align-items: center;
     justify-content: space-evenly;
     height: 120px;
-    width: 900px;
+    width: 750px;
     background-color: #3882f6;
     color: #f9faf8;
     border-radius: 8px;
     margin: 70px;
+    padding: 14px;
 }
 
 .action button {
@@ -185,4 +169,14 @@ button {
 .action .title {
     font-size: 20px;
     font-weight: bold;
+}
+
+.footer {
+    height: 75px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
