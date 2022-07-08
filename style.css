@@ -59,7 +59,7 @@ p {
     margin: 0;
 }
 
-.title {
+.intro .title {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
@@ -92,4 +92,35 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.random-info .title {
+    font-size: 26px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 125px;
+    margin-bottom: 80px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    
+}
+
+.space {
+    border: 3px solid #3882f6;
+    height: 130px;
+    width: 130px;
+    border-radius: 10px;
 }
