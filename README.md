@@ -1,5 +1,9 @@
-# landing-page
+# Landing Page
+Landing Page is created with HTML and CSS3.
 
-This is day 7 that I returned to frontend programming, but technically that's 3rd month and 7th day of programming. 
+![Preview](landing-page.png)
 
-That is going to be landing page of some random things, just to understand what is going on, and how to do all of this.
+## Links
+- [Live App](https://alex-dishen.github.io/landing-page/) :point_left:
+- Link to the [Assignment](https://www.theodinproject.com/lessons/foundations-landing-page)
+- See my next [Project](https://github.com/alex-dishen/rock-paper-scissors)
